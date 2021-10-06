@@ -6,27 +6,32 @@ const items = [
     {
         id: 1,
         name: "pan",
-        price: 1.50
+        price: 1.50,
+        image: "img/pan.jpg"
     },
     {
         id: 2,
         name: "cocacola",
-        price: 1
+        price: 1,
+        image: "img/coke.jpg"
     },
     {
         id: 3,
         name: "bocadillo",
-        price: 3
+        price: 3,
+        image: "img/sandwitch.png"
     },
     {
         id: 4,
         name: "helado",
-        price: 2
+        price: 2,
+        image: "img/icecream.jpg"
     },
     {
         id: 5,
         name: "fanta",
-        price: 1
+        price: 1,
+        image: "img/fanta.jpg"
     }
 ]
 
