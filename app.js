@@ -29,6 +29,8 @@ const items = [
     }
 ]
 
+app.use(express.static(path.join(__dirname, "./resources")))
+
 function searchItem(id) {
     for (let i = 0; i < items.length; i++) 
         if (items[i].id == id) 
